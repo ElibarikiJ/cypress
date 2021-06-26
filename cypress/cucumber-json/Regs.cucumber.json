@@ -1,0 +1,58 @@
+[
+  {
+    "description": "    In order to keep Regres api stable\n    As a tester\n    I want to make sure that everything works as expected",
+    "keyword": "Feature",
+    "name": "Regres",
+    "line": 1,
+    "id": "regres",
+    "tags": [],
+    "uri": "Regs.feature",
+    "elements": [
+      {
+        "id": "regres;check-tea-pot",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Check Tea Pot",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I make a GET request to \"http://httpbin.org/status/418\"",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I receive a response",
+            "result": {
+              "status": "failed",
+              "duration": 204000000,
+              "error_message": "TypeError: Cannot read property 'write' of undefined\n    at Object.error (http://localhost:45931/__cypress/tests?p=cypress/integration/Regs.feature:45575:18)\n    at Logger.error (http://localhost:45931/__cypress/tests?p=cypress/integration/Regs.feature:49595:20)\n    at getResponse (http://localhost:45931/__cypress/tests?p=cypress/integration/Regs.feature:48671:11)\n    at async Tosser.setResponse (http://localhost:45931/__cypress/tests?p=cypress/integration/Regs.feature:48536:21)\n    at async Tosser.toss (http://localhost:45931/__cypress/tests?p=cypress/integration/Regs.feature:48503:7)\nFrom previous event:\n    at Context.thenFn (http://localhost:45931/__cypress/runner/cypress_runner.js:136178:23)\n    at Context.then (http://localhost:45931/__cypress/runner/cypress_runner.js:136617:21)\n    at Context.<anonymous> (http://localhost:45931/__cypress/runner/cypress_runner.js:151591:21)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:150999:15\nFrom previous event:\n    at runCommand (http://localhost:45931/__cypress/runner/cypress_runner.js:150978:8)\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:151124:14)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:151152:16\nFrom previous event:\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:151124:34)\nFrom previous event:\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:151165:37\nFrom previous event:\n    at run (http://localhost:45931/__cypress/runner/cypress_runner.js:151158:21)\n    at $Cy.cy.<computed> [as then] (http://localhost:45931/__cypress/runner/cypress_runner.js:151631:11)\n    at Context.runnable.fn (http://localhost:45931/__cypress/runner/cypress_runner.js:151855:21)\n    at callFn (http://localhost:45931/__cypress/runner/cypress_runner.js:107792:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://localhost:45931/__cypress/runner/cypress_runner.js:107779:7)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:157835:28\nFrom previous event:\n    at Object.onRunnableRun (http://localhost:45931/__cypress/runner/cypress_runner.js:157823:17)\n    at $Cypress.action (http://localhost:45931/__cypress/runner/cypress_runner.js:147939:28)\n    at Test.Runnable.run (http://localhost:45931/__cypress/runner/cypress_runner.js:155965:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (http://localhost:45931/__cypress/runner/cypress_runner.js:108451:10)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:108577:12\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:108360:14)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:108370:7\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:108272:14)\n    at Hook.<anonymous> (http://localhost:45931/__cypress/runner/cypress_runner.js:108333:7)\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:157751:22)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:157778:11\nFrom previous event:\n    at onNext (http://localhost:45931/__cypress/runner/cypress_runner.js:157775:57)\n    at done (http://localhost:45931/__cypress/runner/cypress_runner.js:107732:5)\n    at callFn (http://localhost:45931/__cypress/runner/cypress_runner.js:107815:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://localhost:45931/__cypress/runner/cypress_runner.js:107779:7)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:157835:28\nFrom previous event:\n    at Object.onRunnableRun (http://localhost:45931/__cypress/runner/cypress_runner.js:157823:17)\n    at $Cypress.action (http://localhost:45931/__cypress/runner/cypress_runner.js:147939:28)\n    at Hook.Runnable.run (http://localhost:45931/__cypress/runner/cypress_runner.js:155965:13)\n    at next (http://localhost:45931/__cypress/runner/cypress_runner.js:108294:10)\n    at http://localhost:45931/__cypress/runner/cypress_runner.js:108338:5\n    at timeslice (http://localhost:45931/__cypress/runner/cypress_runner.js:102264:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "response should have a status 418",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
