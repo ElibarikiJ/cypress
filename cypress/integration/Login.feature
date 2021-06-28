@@ -18,5 +18,4 @@ Feature: Login in lsf admin portal
             | email | password |
             | ambokilekifukwe@ | 1234 |
             | elibarikijohn10@ | 678 |
-            | elibarikijohn10@gmail.com | 6781232323 |
 

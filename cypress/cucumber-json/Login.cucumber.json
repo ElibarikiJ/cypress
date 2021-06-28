@@ -27,7 +27,7 @@
             "name": "User visit login page",
             "result": {
               "status": "passed",
-              "duration": 5753000000
+              "duration": 2325000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "User enter email \"brkjohn.3@gmail.com\" in email field",
             "result": {
               "status": "passed",
-              "duration": 451000000
+              "duration": 513000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "User enter password \"brkjohn.123\" in password field",
             "result": {
               "status": "passed",
-              "duration": 335000000
+              "duration": 346000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "Check email address is present in email field",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 28000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "Check password is present in password field",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 35000000
             }
           }
         ]
@@ -92,7 +92,7 @@
             "name": "User visit login page",
             "result": {
               "status": "passed",
-              "duration": 4528000000
+              "duration": 584000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "User validation input from users",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 23000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Check validity email as 'ambokilekifukwe@' and password as '1234'",
             "result": {
               "status": "passed",
-              "duration": 612000000
+              "duration": 593000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Check errors occurance if email is not valid",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 12000000
             }
           }
         ]
@@ -147,7 +147,7 @@
             "name": "User visit login page",
             "result": {
               "status": "passed",
-              "duration": 978000000
+              "duration": 450000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "User validation input from users",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 23000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "Check validity email as 'elibarikijohn10@' and password as '678'",
             "result": {
               "status": "passed",
-              "duration": 584000000
+              "duration": 597000000
             }
           },
           {
@@ -177,62 +177,7 @@
             "name": "Check errors occurance if email is not valid",
             "result": {
               "status": "passed",
-              "duration": 12000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login-in-lsf-admin-portal;user-check-validation-email-and-password",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "User check validation email and password",
-        "tags": [
-          {
-            "name": "@focus",
-            "line": 11
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 13,
-            "name": "User visit login page",
-            "result": {
-              "status": "passed",
-              "duration": 6581000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "User validation input from users",
-            "result": {
-              "status": "passed",
-              "duration": 25000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "Check validity email as 'elibarikijohn10@gmail.com' and password as '6781232323'",
-            "result": {
-              "status": "passed",
-              "duration": 832000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "Check errors occurance if email is not valid",
-            "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Email address is invalid' but never did.\n    at Context.eval (https://sharepoint-lsf.web.app/__cypress/tests?p=cypress/integration/Login.feature:83:6)\n    at Context.resolveAndRunStepDefinition (https://sharepoint-lsf.web.app/__cypress/tests?p=cypress/integration/Login.feature:15201:29)\n    at Context.eval (https://sharepoint-lsf.web.app/__cypress/tests?p=cypress/integration/Login.feature:14533:35)"
+              "duration": 16000000
             }
           }
         ]
